@@ -2,6 +2,8 @@
 	width: 100%;
 	max-width: 900px;
 	margin: 0 auto;
+  text-align: center;
+  font-family: "Segoe Script";
 }
 
 h1 {
@@ -11,7 +13,6 @@ h1 {
 	font-size: 50px;
 	background-color: grey;
 	margin-top: 45px;
-	
 }
 
 h2 {
@@ -21,5 +22,4 @@ h2 {
 	font-size: 35px;
 	background-color: white;
 	margin-top: 12px;
-	
 }
