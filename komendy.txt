@@ -1,0 +1,2 @@
+node_modules\.bin\autoprefixer-cli.cmd -o main.prefixed.css main.css
+node_modules\.bin\nu-html-checker.cmd index.html
