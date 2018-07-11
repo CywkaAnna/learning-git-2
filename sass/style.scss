@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
 
-/*---przemienne albo zmienne czy coś---*/
+/*---zmienne---*/
 
 $fonts: 'Raleway', sans-serif;
 $main-gray: #313332;
@@ -73,7 +73,7 @@ section > .container {
 /*------Header------*/
 header {
 	background-color: $main-gray;
-	
+
 	img {
 		padding: 10px 0;
 	}
@@ -86,18 +86,18 @@ header {
 		list-style-type: none;
 		float: right;
 	}
-	
+
 	&:after {
 		display: table;
 		content: "";
 		clear: both;
 	}
-	
+
 	li {
 		display: inline-block;
 		position: relative;
 	}
-	
+
 	a {
 	 	line-height: 50px;
 	 	padding: 0 20px;
@@ -106,7 +106,7 @@ header {
 	 	text-decoration: none;
 	 	text-transform: uppercase;
 	 	font-weight: 700;
-	 	
+
 	 	&:hover {
 		 	color: $blue;
 		    transition: width 2s;
@@ -132,7 +132,7 @@ header {
 		margin-top: 200px;
 		margin-bottom: 200px;
 	}
-	
+
 	.hero-title,
 	.hero-subtitle {
 		color: #fff;
@@ -141,11 +141,11 @@ header {
 		line-height: 44px;
 		padding-right: 120px;
 	}
-	
+
 	.hero-title {
 		font-weight: 300;
 	}
-	
+
 	.hero-subtitle {
 		font-weight: 900;
 	}
@@ -161,11 +161,11 @@ header {
 			background-color: $blue;
 			transform: scale(1.1);
 		}
-	
+
 		&:hover .benefits-title {
 			color: $blue;
 		}
-		
+
 		.benefits-icon {
 		  	font-size: 80px;
 		    background-color: $main-gray;
@@ -176,14 +176,14 @@ header {
 		    transition: .5s ease-out;
 		    cursor: pointer;
 		}
-	
+
 		.benefits-title {
 		    text-transform: uppercase;
 			font-weight: 700;
 			font-size: 22px;
 			padding: 20px 0;
 		}
-	
+
 		.benefits-text {
 		 	color: $text-gray;
 		 	padding: 20px 0;
@@ -202,7 +202,7 @@ header {
 		color: $main-gray;
 		font-weight: 900;
 	}
-	
+
 	.featured-text {
 		color: $text-gray;
 		line-height: 25px;
@@ -222,18 +222,18 @@ header {
 		margin: 0;
 		overflow: hidden;
 		position: relative;
-		
+
 		&:hover .gallery-layer {
 			bottom: 0;
 			height: 100%;
 		}
-		
+
 		.gallery-image {
 			height: 100%;
 			width: 100%;
 			object-fit: cover;
 		}
-		
+
 		.gallery-layer {
 			position: absolute;
 			bottom: 100%;
@@ -245,7 +245,7 @@ header {
 			height: 0;
 			transition: .5s ease;
 			text-align: center;
-			
+
 			.fa {
 				background-color: #fff;
 				padding: 8px;
@@ -256,7 +256,7 @@ header {
 				margin-top: 100px;
 			}
 		}
-	}	
+	}
 }
 
 /*------Staff------*/
@@ -272,12 +272,12 @@ header {
 	position: relative;
 	cursor: pointer;
 	transition: all .4s ease-in-out;
-	
+
 	&:hover .staff-layer {
 		transform: scale(1);
 		opacity: 1;
 	}
-	
+
 	img {
 		width: inherit;
 		height: inherit;
@@ -301,14 +301,14 @@ header {
 	opacity: 0;
   	text-align: center;
   	display: table;
-  	
+
   	.staff-title {
 		color: #fff;
 		letter-spacing: 2px;
 		font-size: 22px;
 		font-weight: 500;
 		padding: 0 30px;
-		display: table-cell; 
+		display: table-cell;
 		vertical-align: middle;
 	}
 }
@@ -336,7 +336,7 @@ header {
   	margin: 0;
   	width: calc(100% - 20px);
 	left: 20px;
-	
+
 	img {
 	  	position: absolute;
 	  	width: 100%;
@@ -398,7 +398,7 @@ footer {
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	
+
 	.container {
 		padding: 40px 0;
 	}
@@ -408,7 +408,7 @@ footer {
 		font-size: 24px;
 		margin-bottom: 20px;
 		font-weight: 900;
-		
+
 		&:after {
 			background-color: #fff;
 			content: "";
@@ -421,20 +421,20 @@ footer {
 			margin-right: -50%;
 		}
 	}
-	
+
 	.footer-bold-text {
 		line-height: 20px;
 		font-weight: 600;
 	}
-	
+
 	.footer-normal-text {
 		line-height: 20px;
 		font-weight: 300;
 	}
-	
+
 	.footer-social-media {
 		margin-top: 15px;
-		
+
 		.fa {
 			color: #fff;
 			text-align: center;
@@ -446,14 +446,14 @@ footer {
 			cursor: pointer;
 			transition: .5s;
 			text-decoration: none;
-			
+
 			&:hover {
 				color: $blue;
 				background-color: #fff;
 			}
 		}
 	}
-	
+
 	.footer-copyright {
 		width: 100%;
 		font-size: 14px;
@@ -478,51 +478,51 @@ footer {
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
-        
+
 	.header-navigation {
 		text-align: center;
    	}
-   	
+
 	.header-navigation ul {
 		float: none;
 		text-align: center;
 	}
-	
+
 	.header-navigation li {
 		display: block;
 	}
-	
+
 	.header-navigation a {
 		font-size: 20px;
 		padding: 0 15px;
 	}
-	
+
   	.details-text {
-		padding: 0 10%;	
+		padding: 0 10%;
 	}
-	
+
 	.details-header {
 		padding: 10%;
 		margin-bottom: 0;
 		font-size: 30px;
 	}
-	
-	.details-subtitle, 
+
+	.details-subtitle,
 	.details-description {
 		display: block;
 		padding: 0 30px;
 		width: 100%;
 		font-size: 16px;
 	}
-	
+
 	.details-description {
 		padding-top: 20px;
-	} 
-  
+	}
+
   	.staff-picture {
 		margin: 0 auto;
 	}
-	
+
 	.staff-subtitle {
 		padding: 10px 0;
 	}
@@ -542,13 +542,13 @@ footer {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-	
+
 	.hero-slogan {
 		margin: 100px 0;
 		padding-right: 40px;
 		text-align: center;
 	}
-	
+
 	.hero-title,
 	.hero-subtitle {
 		font-size: 30px;
@@ -559,11 +559,11 @@ footer {
 	.benefits-item {
 		margin: 20px 0;
 	}
-	
+
 	.benefits-text {
 		padding: 0 10%;
 	}
-	
+
 	.featured-text {
 		padding: 0 10% 5%;
 		font-size: 16px;
@@ -574,7 +574,7 @@ footer {
 		line-height: 34px;
 		padding-bottom: 20px;
 	}
-	
+
 	.gallery-layer {
 		height: 100%;
 		bottom: 0;
@@ -593,11 +593,11 @@ footer {
 	.details-picture {
 		display: none;
 	}
-	
+
 	.details-text {
-		padding: 10%;	
+		padding: 10%;
 	}
-	
+
 	.numbers-item {
 		margin: 0 auto;
 	}
