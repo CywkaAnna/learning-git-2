@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
-    
+
     "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdirp sass css vendor images js",
     "init:files": "nodetouch README.md index.html sass/style.scss js/script.js",
@@ -21,7 +21,7 @@
     "watch": "npm-run-all build -p watch:*",
     "watch:sassprefixer": "onchange '/sass/*.scss' -- npm-run-all watch:*",
     "watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
-    "watch:autoprefixer": "autoprefixer-cli -o css/style.prefixed.css css/style.css",
+    "watch:autoprefixer": "autoprefixer-cli css/style.css",
     "watch:browsersync": "browser-sync"
   },
   "repository": {
